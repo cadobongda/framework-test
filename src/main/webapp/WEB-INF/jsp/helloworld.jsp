@@ -2,6 +2,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <%@ page contentType="text/html" isELIgnored="false" %>
+<div>Greeting!</div>
 <div id="greeting"><c:out value="${hellomessage}"/></div>
 
 <script type="text/javascript">
